@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'cache-miss-daily.pages.dev';
+const HOST = 'cache-miss-daily.pageaura.xyz';
 const KEY = '1bcc019520e3473c9484631ebe5994c2';
 const KEY_LOCATION = `https://cache-miss-daily.pages.dev/1bcc019520e3473c9484631ebe5994c2.txt`;
 
