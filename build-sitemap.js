@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://cache-miss-daily.pages.dev';
+const DOMAIN = 'https://cache-miss-daily.pageaura.xyz';
 const KEY = '1bcc019520e3473c9484631ebe5994c2';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'cache-miss-daily.pages.dev' ||
+    url.hostname.toLowerCase() !== 'cache-miss-daily.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
